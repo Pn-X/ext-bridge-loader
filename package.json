@@ -1,0 +1,35 @@
+{
+  "name": "ext-bridge-loader",
+  "version": "0.0.2",
+  "description": "Pre-compile js code to work with ext-bridge-runtime.js and ExtJSBridge(Client library)",
+  "reposity": {
+    "type": "git",
+    "url": "git+https://github.com/Pn-X/ext-bridge-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pn-X/ext-bridge-loader/issues"
+  },
+  "homepage": "https://github.com/Pn-X/ext-bridge-loader#readme",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo No Test"
+  },
+  "keywords": [
+    "ext",
+    "bridge",
+    "iOS",
+    "Android",
+    "hybrid",
+    "native",
+    "message",
+    "loader"
+  ],
+  "dependencies": {
+    "escodegen": "^2.0.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0",
+    "loader-utils": "^2.0.0"
+  },
+  "author": "pn-x",
+  "license": "MIT"
+}
